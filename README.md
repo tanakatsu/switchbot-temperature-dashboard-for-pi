@@ -109,3 +109,11 @@ These tools are required on your Raspberry Pi (or development machine) before pr
             1. Adjust the time range (top-right corner) if no data is visible.
 
         You have now successfully set up a Grafana dashboard connected to InfluxDB.
+1. (Optional) Install as a Service:
+   ```bash
+   ./install_service.sh
+   ```
+   To uninstall the service later:
+   ```bash
+    ./uninstall_service.sh
+    ```
